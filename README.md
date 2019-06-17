@@ -2,6 +2,13 @@
 
 Siddhartha Vanasthali School is private institute in Kathmandu, Nepal.
 
+# What changes did i make?
+Previous website: http://www.svi.edu.np/
+```
+Implementing the modern layout with high readibility.
+Changing static website into Dynamic Wordpress Website
+```
+
 ## Technology Used
 
 ```
