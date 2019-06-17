@@ -1,0 +1,69 @@
+.bg-white {
+    background: #ffffff;
+}
+
+.bg-accent {
+    background: $accent_color;
+    color: $primary_color;
+}
+
+.bg-primary {
+    background: $primary_color;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.btn {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    background: $primary_color;
+    transition: 0.5s all linear;
+    // padding: 5px 10px;
+
+    &:hover {
+        background: $accent_color;
+        color: $primary_color;
+    }
+}
+
+.btn-sidebar {
+    padding: 5px 8px;
+    color: $light_color;
+    background: $primary_color;
+    border: 1px solid $primary_color;
+    font-size: 12px;
+    transition: 0.5s all linear;
+
+    &:hover {
+        background: $light_color;
+        color: $primary_color;
+    }
+}
+
+.bg-light {
+    background-color: $light_color;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.sidebar_title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sidebar_content {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.width_55{
+    width:55%;
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $normal_font;
+    // background:#ccc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $headline_font;
+}
+
+a {
+    text-decoration: none;
+    color: $primary_color;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    width: $container_width;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero_title{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.float_right{
+    float: right;
+}
+
+.float_left{
+    float: left;
+}
+
+.clear_fix{
+    clear: both;
+}
+
+.gallery_title{
+    font-size: 1.3rem;
+}
+
+
+[data-scroll] {
+    transition: all 1s;
+}
+
+[data-scroll="in"] {
+    visibility: visible;
+    transform: scale(1);
+    
+}
+
+[data-scroll="out"] {
+    visibility: hidden;
+    transform: scale(0.9);
+}

@@ -1,0 +1,54 @@
+.glide {
+    height: 100%;
+
+    .glide__track {
+        height: 100%;
+
+        .glide__slides {
+            height: 100%;
+
+
+        }
+    }
+
+    .glide__arrow--left {
+        left: 1em;
+        font-size: 2rem;
+        color: $accent_color;
+    }
+
+    .glide__arrow--right {
+        right: 1em;
+        font-size: 2rem;
+        color: $accent_color;
+    }
+}
+
+
+.testimonial {
+    .glide {
+        .glide__slide {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .glide__arrow--left {
+            left: -4em;
+            font-size: 2rem;
+            color: $accent_color;
+            padding: 0;
+        }
+
+        .glide__arrow--right {
+            right: -4em;
+            font-size: 2rem;
+            color: $accent_color;
+            padding: 0;
+        }
+
+        .glide__bullets{
+            bottom: 1rem;
+        }
+    }
+}
