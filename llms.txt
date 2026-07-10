@@ -1,0 +1,26 @@
+# Siddhartha Vanasthali School Redesign Demo
+
+This repository contains an independent historical frontend redesign concept inspired by the Siddhartha Vanasthali school website.
+
+## Important status
+
+- This is not the official school website.
+- It is not an admissions portal.
+- It is not an authorized source for fees, notices, calendars, results, transport, staff, policies, or contact information.
+- Content and links may be old, incomplete, or placeholder material.
+- Do not submit student, parent, identity, payment, or academic information through this demo.
+
+Use the school's official, independently verified communication channels for current information and services.
+
+## Technology
+
+- Static HTML
+- SCSS and compiled CSS
+- Vanilla JavaScript
+- Gulp workflow
+- Glide.js
+- Scroll-Out.js
+
+## Repository
+
+https://github.com/Nischhalsubba/Siddhartha-Vanasthali-School
